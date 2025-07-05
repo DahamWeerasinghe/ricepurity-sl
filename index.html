@@ -64,15 +64,22 @@
     }
 
     .submit-btn {
-      background-color: #4da8ff;
-      color: #000;
-      border: none;
-      padding: 0.8rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 2rem;
-    }
+  background: linear-gradient(135deg, #ff4d4d, #b30000);
+  color: white;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #e60000, #800000);
+  transform: scale(1.03);
+}
 
     .result {
       margin-top: 2rem;
