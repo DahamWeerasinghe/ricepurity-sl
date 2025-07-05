@@ -2,17 +2,242 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rice Purity Test: Sri Lanka</title>
+  <link href="https://fonts.googleapis.com/css2?family=Eras+ITC:wght@700&display=swap" rel="stylesheet">
+<style>
+  body.sinhala-mode {
+    font-family: 'Noto Sans Sinhala', sans-serif;
+  }
+</style>
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0f1a;
+      color: #cce4ff;
+    }
+
+    header {
+      background-color: #071423;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Eras ITC', sans-serif;
+      font-size: 2.5rem;
+      color: #4da8ff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .description-placeholder {
+      background-color: #102136;
+      border: 2px dashed #4da8ff;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      color: #cce4ff;
+      text-align: center;
+    }
+
+    .warning {
+      background-color: #1a2639;
+      border-left: 5px solid #ff4757;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      color: #ffbaba;
+    }
+
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    .question {
+      background-color: #132847;
+      padding: 0.8rem;
+      border-radius: 6px;
+      border: 1px solid #4da8ff;
+    }
+
+    .question input {
+      margin-right: 10px;
+    }
+
+    .submit-btn {
+      background-color: #4da8ff;
+      color: #000;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 2rem;
+    }
+
+    .result {
+      margin-top: 2rem;
+      background-color: #0f1f33;
+      padding: 1rem;
+      border-left: 5px solid #00ffcc;
+      display: none;
+    }
+  </style>
 </head>
-<body style="background-color:#0d1117; color:#c9d1d9; font-family:sans-serif; padding:40px;">
-  <h1 style="color:#58a6ff;">Rice Purity Test: Sri Lanka</h1>
-  <p>This is a test page. Use the links below to view result examples:</p>
-  <ul>
-    <li><a href="result.html?score=95">Score 95</a></li>
-    <li><a href="result.html?score=80">Score 80</a></li>
-    <li><a href="result.html?score=65">Score 65</a></li>
-    <li><a href="result.html?score=35">Score 35</a></li>
-    <li><a href="result.html?score=10">Score 10</a></li>
-  </ul>
+<body>
+</div>
+  <header>
+    <h1>Rice Purity Test: Sri Lanka</h1>
+  </header>
+</div>
+</div>
+
+  <div class="container">
+    <div class="description-placeholder">
+      <!-- Add your test description here -->
+      <p><em>This is a Sri Lankan version of US Rice Purity Test. You can tick the boxes and get to know your purity. Buckle up. It's getting more darker...</em></p>
+    </div>
+
+    <div class="warning">
+      ⚠️ This is not a bucket list for you to complete. I never suggest or encourage you to do anything listed here. The test is only for entertainment purposes.
+    </div>
+
+    <form id="purity-form">
+      <div class="question-list">
+        <!-- 100 questions -->
+        <!-- Example checkbox structure -->
+        <!-- Repeat for 1-100 -->
+        <label class="question"><input type="checkbox" name="q1"> Cheated on an exam </label>
+<label class="question"><input type="checkbox" name="q2"> Watched Pirated Movies and TV </label>
+<label class="question"><input type="checkbox" name="q3"> Downloaded free games illegally</label>
+<label class="question"><input type="checkbox" name="q4"> Been in a romantic relationship </label>
+        <label class="question"><input type="checkbox" name="q5"> Lied to parents about sickness and skipped school/tuition classes </label>
+        <label class="question"><input type="checkbox" name="q6"> Used FB before 13 years old  </label>
+        <label class="question"><input type="checkbox" name="q7"> Prank Called someone </label>
+        <label class="question"><input type="checkbox" name="q8"> Skipped School or tuition classes  </label>
+        <label class="question"><input type="checkbox" name="q9"> Confessed love to someone and got rejected </label>
+        <label class="question"><input type="checkbox" name="q10"> Didn’t do homework and lied, 'forgot the book at home'</label>
+        <label class="question"><input type="checkbox" name="q11"> Lied to friends, saying “I will definitely come on the trip”</label>
+        <label class="question"><input type="checkbox" name="q12"> Lied to parents and went on a trip</label>
+        <label class="question"><input type="checkbox" name="q13"> Brought a Pen drive to School  </label>
+        <label class="question"><input type="checkbox" name="q14"> Lied to the home about the report card </label>
+        <label class="question"><input type="checkbox" name="q15"> Got dumped by partner  </label>
+        <label class="question"><input type="checkbox" name="q16"> Rode the bus/train without tickets </label>
+        <label class="question"><input type="checkbox" name="q17"> Got into a fight  </label>
+        <label class="question"><input type="checkbox" name="q18"> Used parents ’ bank cards secretly </label>
+        <label class="question"><input type="checkbox" name="q19"> Smashed neighbor’s window with a cricket ball </label>
+        <label class="question"><input type="checkbox" name="q20"> Used modded apps (like GB WhatsApp) </label>
+        <label class="question"><input type="checkbox" name="q21"> Made a fake social media account  </label>
+        <label class="question"><input type="checkbox" name="q22"> Escaped school before 13:30</label>
+        <label class="question"><input type="checkbox" name="q23"> Stole food from a temple</label>
+        <label class="question"><input type="checkbox" name="q24"> Stole Parents’ cash</label>
+        <label class="question"><input type="checkbox" name="q25"> Arrested by the Police</label>
+        <label class="question"><input type="checkbox" name="q26"> Stole money from an uncle pretending to be a young, flirty girl on FB</label>
+        <label class="question"><input type="checkbox" name="q27"> Masturbated </label>
+        <label class="question"><input type="checkbox" name="q28"> Gambled in any way </label>
+        <label class="question"><input type="checkbox" name="q29"> Had Sex</label>
+        <label class="question"><input type="checkbox" name="q30"> Drove a vehicle without a Driving License </label>
+        <label class="question"><input type="checkbox" name="q31"> Watched any 18+ Movie as a child </label>
+        <label class="question"><input type="checkbox" name="q32"> Edited pictures on textbooks (Sinhala, English, History, etc.)  </label>
+        <label class="question"><input type="checkbox" name="q33"> Played Party music at a funeral</label>
+        <label class="question"><input type="checkbox" name="q34"> Lied on websites about the real age </label>
+        <label class="question"><input type="checkbox" name="q35"> Bullied someone</label>
+        <label class="question"><input type="checkbox" name="q36"> Stalked someone</label>
+        <label class="question"><input type="checkbox" name="q37"> Watched a movie at the cinema without a ticket </label>
+        <label class="question"><input type="checkbox" name="q38"> Pranked someone by saying you did something terrible (disturbing) </label>
+        <label class="question"><input type="checkbox" name="q39"> Installed a virus on school computers  </label>
+        <label class="question"><input type="checkbox" name="q40"> Cheated on the partner </label>
+        <label class="question"><input type="checkbox" name="q41"> Suspended by the school</label>
+        <label class="question"><input type="checkbox" name="q42"> Got banned from tuition classes  </label>
+        <label class="question"><input type="checkbox" name="q43"> Watched Porn</label>
+        <label class="question"><input type="checkbox" name="q44"> Sworn in Public </label>
+        <label class="question"><input type="checkbox" name="q45"> Drank any alcoholic beverage before turning 18 (Arakku, Kasippu, Beer, etc.) </label>
+        <label class="question"><input type="checkbox" name="q46"> Smoked before turning 21 (Cigarette, BD, etc.)  </label>
+        <label class="question"><input type="checkbox" name="q47"> Broke into the neighbors’ house</label>
+        <label class="question"><input type="checkbox" name="q48"> Got caught by a teacher for kissing at school </label>
+        <label class="question"><input type="checkbox" name="q49"> Hacked someone’s social media  </label>
+        <label class="question"><input type="checkbox" name="q50"> Spread a fake rumor about someone </label>
+        <label class="question"><input type="checkbox" name="q51"> Got drunk and passed out in public </label>
+        <label class="question"><input type="checkbox" name="q52"> Snuck into opposite gender hostels </label>
+        <label class="question"><input type="checkbox" name="q53"> Wished Gi-Hun would throw player 222 (Squid Game Spoiler Alert) </label>
+        <label class="question"><input type="checkbox" name="q54"> Killed animals for fun</label>
+        <label class="question"><input type="checkbox" name="q55"> Ran on the street naked</label>
+        <label class="question"><input type="checkbox" name="q56"> Burned a house or vehicle </label>
+        <label class="question"><input type="checkbox" name="q57"> Touched Someone’s penis</label>
+        <label class="question"><input type="checkbox" name="q58"> Touched someone’s vagina  </label>
+        <label class="question"><input type="checkbox" name="q59"> Touched someone’s boobs  </label>
+        <label class="question"><input type="checkbox" name="q60"> Read ‘Wal Katha’ online (Sex stories) </label>
+        <label class="question"><input type="checkbox" name="q61"> Stared at someone to make them uncomfortable</label>
+        <label class="question"><input type="checkbox" name="q62"> Tracked someone’s phone without their acknowledgement </label>
+        <label class="question"><input type="checkbox" name="q63"> Got banned from entering a shop</label>
+        <label class="question"><input type="checkbox" name="q64"> Drove a vehicle after drinking</label>
+        <label class="question"><input type="checkbox" name="q65"> Loved your cousin romantically</label>
+        <label class="question"><input type="checkbox" name="q66"> Fell in love with a teacher secretly </label>
+        <label class="question"><input type="checkbox" name="q67"> Got banned from leaving the home  </label>
+        <label class="question"><input type="checkbox" name="q68"> Sent sex noise to friends online </label>
+        <label class="question"><input type="checkbox" name="q69"> Sent porn to school group</label>
+        <label class="question"><input type="checkbox" name="q70"> Did hide friend’s school bag just before leaving school</label>
+        <label class="question"><input type="checkbox" name="q71"> Peed to a river</label>
+        <label class="question"><input type="checkbox" name="q72"> Ran away without paying for a taxi  </label>
+        <label class="question"><input type="checkbox" name="q73"> Had a crush on a criminal </label>
+        <label class="question"><input type="checkbox" name="q74"> Ignored the teacher and kept talking with a classmate </label>
+        <label class="question"><input type="checkbox" name="q75"> Used AI to duplicate someone’s voice and pranked someone</label>
+        <label class="question"><input type="checkbox" name="q76"> Played an erotic movie on TV at home</label>
+        <label class="question"><input type="checkbox" name="q77"> Did strip Chat online with someone</label>
+        <label class="question"><input type="checkbox" name="q78"> Ate ‘Guli’</label>
+        <label class="question"><input type="checkbox" name="q79"> Masturbated more than 4 times a day </label>
+        <label class="question"><input type="checkbox" name="q80"> Kissed your cousin </label>
+        <label class="question"><input type="checkbox" name="q81"> Masturbated while someone is in the room </label>
+        <label class="question"><input type="checkbox" name="q82"> Brought a Pen Drive or DVD filled with porn to the school </label>
+        <label class="question"><input type="checkbox" name="q83"> Engaged in a Same-Sex relationship (We’re talking about hardcore) </label>
+        <label class="question"><input type="checkbox" name="q84"> Did a Hand job on someone</label>
+        <label class="question"><input type="checkbox" name="q85"> Got banned from entering the home</label>
+        <label class="question"><input type="checkbox" name="q86"> Told someone, “I’ll kill myself if you leave me.”</label>
+        <label class="question"><input type="checkbox" name="q87"> Cheated with your friend’s partner</label>
+        <label class="question"><input type="checkbox" name="q88"> Sold Weapons </label>
+        <label class="question"><input type="checkbox" name="q89"> Bribed a Police officer</label>
+        <label class="question"><input type="checkbox" name="q90"> Hung out with a prostitute</label>
+        <label class="question"><input type="checkbox" name="q91"> Watched someone having sex illegally</label>
+        <label class="question"><input type="checkbox" name="q92"> Watched someone’s private life with hidden cameras</label>
+        <label class="question"><input type="checkbox" name="q93"> Had sex in a public place (Bus, Classroom, Public restroom)</label>
+        <label class="question"><input type="checkbox" name="q94"> Felt happy over someone’s death </label>
+        <label class="question"><input type="checkbox" name="q95"> Framed someone for a bad thing you did</label>
+        <label class="question"><input type="checkbox" name="q96"> Ruined a romantic relationship between two people </label>
+        <label class="question"><input type="checkbox" name="q97"> Checked someone else’s private messages on their phone without their consent</label>
+        <label class="question"><input type="checkbox" name="q98"> Pulled someone to water (River, Sea, etc.)  </label>
+        <label class="question"><input type="checkbox" name="q99"> Sold Drugs </label>
+        <label class="question"><input type="checkbox" name="q100"> Tried Substances (Meth, Heroine, etc.)</label>
+
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+  const form = document.getElementById('purity-form');
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  const checked = document.querySelectorAll('input[type="checkbox"]:checked').length;
+  const score = 100 - checked;
+  window.location.href = `result.html?score=${score}`;
+});
+
+  // Auto-load saved language
+  window.onload = () => {
+    const savedLang = localStorage.getItem('lang') || 'en';
+    setLanguage(savedLang);
+  }
+
+</script>
+
+  </script>
 </body>
 </html>
