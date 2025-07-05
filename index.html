@@ -76,20 +76,53 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 18px;
+  padding: 16px 20px;
   background-color: #0e1c2f;
   border: 2px solid #2e90e5;
   border-radius: 12px;
-  margin: 10px 0;
+  margin: 18px 0; /* more spacing between boxes */
   font-size: 16px;
   color: #cce4ff;
-  transition: border-color 0.3s ease, background-color 0.3s ease;
+  transition: 
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .question:hover {
   background-color: #142d45;
   border-color: #52aaff;
+  box-shadow: 0 4px 12px rgba(77, 168, 255, 0.15); /* soft feather glow */
+  transform: translateY(-2px); /* slight lift */
 }
+.question input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4da8ff;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.question input[type="checkbox"]:checked {
+  background-color: #4da8ff;
+  border-color: #4da8ff;
+}
+
+.question input[type="checkbox"]:checked::after {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-size: 14px;
+  color: #0b0f1a;
+}
+
   </style>
 </head>
 <body>
