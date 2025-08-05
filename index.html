@@ -82,7 +82,7 @@
   background-color: #0e1c2f;
   border: 2px solid #2e90e5;
   border-radius: 12px;
-  margin: 18px 0; /* more spacing between boxes */
+  margin: 18px 0; 
   font-size: 16px;
   color: #cce4ff;
   transition: 
@@ -95,7 +95,7 @@
 .question:hover {
   background-color: #142d45;
   border-color: #52aaff;
-  box-shadow: 0 4px 12px rgba(77, 168, 255, 0.15); /* soft feather glow */
+  box-shadow: 0 4px 12px rgba(77, 168, 255, 0.15); 
   transform: translateY(-2px); /* slight lift 
   </style>
 </head>
@@ -110,7 +110,6 @@
 
   <div class="container">
     <div class="description-placeholder">
-      <!-- Add your test description here -->
       <p><em>This is a Sri Lankan version of US Rice Purity Test. You can tick the boxes and get to know your purity. Buckle up. It's getting more darker...</em></p>
     </div>
 
@@ -120,9 +119,6 @@
 
     <form id="purity-form">
       <div class="question-list">
-        <!-- 100 questions -->
-        <!-- Example checkbox structure -->
-        <!-- Repeat for 1-100 -->
         <label class="question"><input type="checkbox" name="q1"> Cheated on an exam </label>
 <label class="question"><input type="checkbox" name="q2"> Watched Pirated Movies and TV </label>
 <label class="question"><input type="checkbox" name="q3"> Downloaded free games illegally</label>
@@ -240,7 +236,6 @@ form.addEventListener('submit', function (e) {
   window.location.href = `result.html?score=${score}`;
 });
 
-  // Auto-load saved language
   window.onload = () => {
     const savedLang = localStorage.getItem('lang') || 'en';
     setLanguage(savedLang);
